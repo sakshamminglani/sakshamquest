@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>QUEST TRACKER</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="game_Style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="text-center mb-4">QUEST TRACKER</h1>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text" id="text">FIND THE ANSWER TO MOVE FORWARD </p>
+                        <p class="card-text">Your score: <span id="score">0</span></p>
+                        <div id="clue"></div>
+                        <form>
+                            <div class="form-group">
+                                <label for="answer">Enter your answer:</label>
+                                <div class="input-group">
+                                    <input type="text" id="answer" name="answer" class="form-control">
+                                </div>
+                                <div class="input-group-append">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="gamejav.js"></script>
+</body>
+
+</html>
